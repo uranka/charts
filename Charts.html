@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+<title>Charts</title>
+<meta charset="utf-8" />
+<script src="charts.js"></script>
+
+<style>
+	canvas { border: 1px solid black; }
+	table { 
+		border: 1px solid black;
+		margin-top: 25px;		
+	}
+	td {
+		height: 30px;
+		width: 50px;
+		vertical-align: center;
+	}
+</style>
+</head>
+
+<body>	
+	<p>
+		<input type="button" id="pieChartButton" value="Pie Chart">
+	</p>
+	<canvas width="400" height="400" id="pieChartCanvas"></canvas>
+	
+	<p>
+		<input type="button" id="barChartButton" value="Bar Chart">
+	</p>
+	<canvas width="400" height="200" id="barChartCanvas"></canvas>
+	
+	<table id="labelsTable">	
+	</table>
+		
+
+</body>
+</html>
